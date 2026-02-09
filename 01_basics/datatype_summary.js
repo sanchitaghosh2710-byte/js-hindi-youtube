@@ -48,3 +48,40 @@ let myFunction= {
                 }
 
 */
+
+///////////////////////////////// Memory ************************************************
+
+
+
+
+
+
+
+
+
+
+// Stack ( Primitive) => Copy of data / original value will be there
+//  Heap ( Non-Primitive) => refrence of data / change is done in original value
+
+/*
+let myYoutubename="hitesh"
+let anothername=myYoutubename
+console.log(anothername)
+
+anothername="sanchita"
+console.log(myYoutubename)
+console.log(anothername)
+*/
+
+
+let userOne={ email: "hitesh@gmail.com",
+        age: 22
+}
+let userTwo = userOne
+console.log(userTwo)
+
+userTwo.email="hitesh@google.com";
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
